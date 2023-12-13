@@ -17,7 +17,9 @@ class AnimalControlador extends Animal{
         }
         require_once("vista/animal_formulario.php");        
     }
-    public function guardarAnimal(){}
+    public function guardarAnimal(){
+        
+    }
     public function eliminarAnimal(){}
 }
 ?>
