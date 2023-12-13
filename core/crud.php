@@ -1,4 +1,7 @@
 <?php
+// En van las operaciones a las bases de datos (crear,read, update, delete)
+// Ademas el constructor.
+// se agrega la conexion para la base de datos.
 require_once("core/conexion.php");
 class Crud extends Conexion{
 	private $pdo;
