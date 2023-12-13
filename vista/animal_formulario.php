@@ -6,7 +6,7 @@
     <title>Animal Form</title>
 </head>
 <body>
-    <form action="index.php?controlador=animal&accion=guardar" method = "post">
+    <form action="index.php?controlador=animal&accion=guardarAnimal" method = "post">
         <input type="hidden" name="id" value="<?php echo $animal->id ?>">    
         <table>
             <tr>

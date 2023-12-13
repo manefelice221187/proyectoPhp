@@ -13,9 +13,9 @@
 // }
 
 if(!isset($_REQUEST["controlador"])){
-    require_once("controlador/usuario_controlador.php");
-    $controlador = new Usuariocontrolador();
-    $controlador->indexUsuario();
+    require_once("controlador/animal_controlador.php");
+    $controlador = new AnimalControlador();
+    $controlador->indexAnimal();
 }else{
     $controlador = $_REQUEST["controlador"];
     $accion = $_REQUEST["accion"];
@@ -24,4 +24,4 @@ if(!isset($_REQUEST["controlador"])){
     $controlador = new $controlador;
     call_user_func([$controlador,$accion]);
 }
-?>
+ ?>
